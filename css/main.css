@@ -33,14 +33,6 @@ a.gallery {
   font-weight: normal;
 }
 
-.gallery {
-  font-size: 10px;
-  text-transform: uppercase;
-  margin: 0 250px;
-  justify-content: center;
-  align-content: center;
-}
-
 @media (min-width: 570px) {
 
 .container {
@@ -57,10 +49,43 @@ img {
   height: 99.6vh;
   }
 
-.column {
+.content {
   flex-direction: column;
   padding: 300px 100px 0px;
   width: 550px;
   }
 
+.gallery {
+  font-size: 10px;
+  text-transform: uppercase;
+  margin: 0 250px;
+  justify-content: center;
+  align-content: center;
+  }
+
+}
+
+@media (max-width: 569px) {
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  img {
+    width: 100%;
+    margin: 0px 0px 30px;
+  }
+  
+  .content {
+        padding: 30px;
+  }
+
+  .gallery {
+    font-size: 10px;
+    text-transform: uppercase;
+    margin: 0 200px;
+    justify-content: center;
+    align-content: center;
+    }
 }
