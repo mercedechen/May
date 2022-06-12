@@ -11,8 +11,8 @@ body {
 }
 
 figure {
-  margin-block: 0px;
-  margin-inline: 0px;
+  margin-block: 10px;
+  margin-inline: 10px;
 }
 
 img {
@@ -25,6 +25,11 @@ img {
 }
 
 @media (min-width: 600px) {
+
+  body {
+    margin: 35px 115px;
+    padding: 0px;
+  }
 
 .gallery {
   display: grid;
