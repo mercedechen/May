@@ -10,6 +10,11 @@ body {
   gap: 0px;
 }
 
+figure {
+  margin-block: 0px;
+  margin-inline: 0px;
+}
+
 img {
   display: block;
   width: 100%;
